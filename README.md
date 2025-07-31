@@ -1,8 +1,4 @@
 <p align="center">
-  <img src="https://telegra.ph/file/c3396a8d9b8ba43aed33e.jpg" width="800"/>
-</p>
-
-<p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=F700FF&height=100&section=header&text=🩵%20Makima-Bot-MD%20🩵&fontSize=32&fontColor=ffffff" />
 </p>
 
