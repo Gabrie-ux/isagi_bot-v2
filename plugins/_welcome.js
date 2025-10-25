@@ -49,14 +49,14 @@ export async function before(m, { conn, participants, groupMetadata }) {
   });
 
   if (m.messageStubType == 27) {
-    const bienvenida = `
-💎 WELCOME - USER 💎
+    const bienvenid@ = `
+🎃 WELCOME - USER 🎃
 
-🩵 Usuario: ${user}
-🩵 Grupo: ${groupMetadata.subject}
-🩵 Miembros: ${total}
+👻 Usuario: ${user}
+🍭 Grupo: ${groupMetadata.subject}
+🙀 Miembros: ${total}
 
-⌬ Usa *#help* para ver los comandos disponibles
+⌬ Usa *.menu* para ver los comandos disponibles
 `
     // Mensaje de bienvenida como newsletter
     await conn.sendMessage(m.chat, { 
@@ -64,22 +64,22 @@ export async function before(m, { conn, participants, groupMetadata }) {
       caption: bienvenida, 
       contextInfo: contextNewsletter 
     });
-    // Mensaje adicional, respondiendo a 《✧》 LLEGO OTRO
+    // Mensaje adicional, respondiendo a 《✧》 LLEGO OTRO MIEMBRO 🎃
     await conn.sendMessage(m.chat, { 
       text: 'SE NOS UNIÓ UN USUARIO', 
       contextInfo: contextNewsletter
-    }, { quoted: quotedMsg('《✧》 LLEGO OTRO GAY JAJAJA') });
+    }, { quoted: quotedMsg('《✧》 LLEGO OTRO PERSONA DEL MAS ALLA 🎃') });
   }
 
   if ([28, 32].includes(m.messageStubType)) {
     const despedida = `
-💎 ADIOS - USER 💎
+⭐ ADIOS - USER ⭐
 
-🩵 Usuario: ${user}
-🩵 Grupo: ${groupMetadata.subject}
-🩵 Miembros: ${total}
+⭐ Usuario: ${user}
+⭐ Grupo: ${groupMetadata.subject}
+⭐ Miembros: ${total}
 
-⌬ Espero y vuelvas después.
+⌬ Espero y vuelvas después Isagi te esperara en las canchas ⚽⚽.
 `
     // Mensaje de despedida como newsletter
     await conn.sendMessage(m.chat, { 
