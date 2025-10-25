@@ -14,10 +14,10 @@ let handler = async (m, { conn, usedPrefix, text, command }) => {
   try {
     // Inicializamos el banner y el nombre por sesión si no existen
     if (!global.bannerUrls[conn.user.jid]) {
-      global.bannerUrls[conn.user.jid] = 'https://qu.ax/XkPVZ.jpg'; // URL inicial de la imagen del menú
+      global.bannerUrls[conn.user.jid] = 'https://files.catbox.moe/iya1a3.png'; // URL inicial de la imagen del menú
     }
     if (!global.botNames[conn.user.jid]) {
-      global.botNames[conn.user.jid] = 'Makima'; // Nombre inicial del bot
+      global.botNames[conn.user.jid] = 'ISAGI'; // Nombre inicial del bot
     }
 
     // Verificar si el usuario es el socket activo
@@ -54,7 +54,7 @@ let handler = async (m, { conn, usedPrefix, text, command }) => {
       const redes = 'https://github.com/gabrie-ux';
       const channelRD = { id: "120363420590235387@newsletter", name: "ISAGI - YOICHI" };
       let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender;
-      let perfil = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://files.catbox.moe/mqtxvp.jpg');
+      let perfil = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://files.catbox.moe/iya1a3.png');
 
       // Mensaje de "CARGANDO COMANDOS..." con contexto de canal y respondiendo al mensaje
       await conn.sendMessage(m.chat, {
