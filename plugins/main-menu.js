@@ -102,23 +102,23 @@ let handler = async (m, { conn, usedPrefix, text, command }) => {
       let menu = `¡Hola! ${taguser} soy ${botname}  ${(conn.user.jid == global.conn.user.jid ? '(OficialBot)' : '(Sub-Bot)')} 
 
 ╭━━I N F O-B O-T━━
-┃Creador: ?GABRIEL
-┃Tiempo activo: ${uptime}
-┃Baileys: Multi device
-┃Moneda actual: ${moneda}
-┃Registros: ${totalreg}
+┃🎃Creador: ?GABRIEL
+┃🎃Tiempo activo: ${uptime}
+┃🎃Baileys: Multi device
+┃🎃Moneda actual: ${moneda}
+┃🎃Registros: ${totalreg}
 ╰━━━━━━━━━━━━━
 
 ╭━━INFO USUARIO━╮
-┃Nombre: ${nombre}
-┃Rango: ${role}
-┃Nivel: ${level}
-┃Coins: ${chocolates}
+┃🎃Nombre: ${nombre}
+┃🎃Rango: ${role}
+┃🎃Nivel: ${level}
+┃🎃Coins: ${chocolates}
 ╰━━━━━━━━━━━━━
 
 ➪ 𝗟𝗜𝗦𝗧𝗔 
        ➪  𝗗𝗘 
-           ➪ 𝗖𝗢𝗠𝗔𝗡𝗗𝗢𝗦
+           ➪ 𝗖𝗢𝗠𝗔𝗡𝗗𝗢𝗦🎃
 
 .       ╭ֹ┈ ⵿❀⵿ ┈╮ ㅤ
  ╭ֹ┈ ⵿❀⵿ ┈╮PRINCIPALES
