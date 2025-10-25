@@ -51,10 +51,10 @@ global.packname = `⏤͟͞ू⃪  ̸̷͢ELIASABET MD𑁯ᰍ`
 global.author = `𝐒𝐭𝐢𝐜𝐤𝐞𝐫𝐬 𝐁𝐲 GABRIEL`;
 global.wm = '⏤͟͞ू⃪  ̸̷͢𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 ELISABET Club';
 global.titulowm = '⏤͟͞ू⃪ELISABET ⚡𑁯ᰍ';
-global.igfg = 'Deymoon Club'
+global.igfg = 'ISAGI Club'
 global.botname = 'ELISABET ⚡'
-global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ Deymoon Club'
-global.textbot = 'Mak𝐢 : DEYMOON CLUB'
+global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ isagi Club'
+global.textbot = 'isagi : ISAGI CLUB'
 global.gt = '͟͞𝐃𝐞𝐧𝐣𝐢';
 global.namechannel = 'ELIZABETH CHANNEL🗣️𑁯'
 
