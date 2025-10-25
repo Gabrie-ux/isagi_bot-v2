@@ -65,7 +65,7 @@ let handler = async function (m, { conn, text, args, usedPrefix, command }) {
 https://whatsapp.com/channel/0029Vb6nOKBD8SDp0aFtCD3R
 ╚▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬▭╝
 
-> © Powered by gabriel Manuel`
+> © Powered by gabriel ISAGI`
 
   await conn.sendMessage(m.chat, {
         text: regbot,
