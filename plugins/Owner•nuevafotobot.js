@@ -9,9 +9,9 @@ const handler = async (m, { conn }) => {
       return m.reply('❌ No se pudo obtener el meme.');
     }
 
-    await conn.sendMessage('120363400360651198@newsletter', {
+    await conn.sendMessage('120363420590235387@newsletter', {
       image: { url: memeUrl },
-      caption: '「🩵」 *MEME PARA TI*\n\n> Makima Bot MD',
+      caption: '「🩵」 *MEME PARA TI*\n\n> ISAGI Bot MD',
     });
 
     m.reply('「🩵」 Meme enviado al canal con éxito...');
