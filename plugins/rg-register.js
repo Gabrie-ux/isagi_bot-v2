@@ -62,7 +62,7 @@ let handler = async function (m, { conn, text, args, usedPrefix, command }) {
    ━━━SIGUENOS━━━
 
 ╭ׅׄ̇─ׅ̻ׄ╮۪̇߭︹ׅ̟ׄ̇︹ׅ۪ׄ̇߭︹ׅ̟ׄ̇⊹۪̇߭︹ׅ̟ׄ̇︹ׅ۪ׄ̇߭︹ׅ̟ׄ̇⊹۪̇߭︹ׅ̟ׄ̇︹ׅ۪ׄ̇߭︹ׅ̟ׄ̇⊹
-https://whatsapp.com/channel/0029VbAa5sNCsU9Hlzsn651S
+https://whatsapp.com/channel/0029Vb6nOKBD8SDp0aFtCD3R
 ╚▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬▭╝
 
 > © Powered by Félix Manuel`
@@ -72,7 +72,7 @@ https://whatsapp.com/channel/0029VbAa5sNCsU9Hlzsn651S
         contextInfo: {
             externalAdReply: {
                 title: '⊱『🩵𝆺𝅥 𝗥𝗘𝗚𝗜𝗦𝗧𝗥𝗔𝗗𝗢(𝗔) 𝆹𝅥🔥』⊰',
-                thumbnailUrl: 'https://files.catbox.moe/445fzg.jpg',
+                thumbnailUrl: 'https://cdn.yupra.my.id/yp/5jkocq7p.png',
                 mediaType: 1,
                 renderLargerThumbnail: true
             }
@@ -101,13 +101,13 @@ let chtxt = `👤 *𝖴𝗌uario* » ${m.pushName || 'Anónimo'}
 🩵 *𝖨𝖣 𝖽𝖾 𝗋𝖾𝗀𝗂𝗌𝗍𝗋𝗈* »
 ⤷ ${sn}`;
 
-    let channelID = '120363402362088282@newsletter';
+    let channelID = '120363420590235387@newsletter';
         await conn.sendMessage(channelID, {
         text: chtxt,
         contextInfo: {
             externalAdReply: {
                 title: "【 🩵 𝐍𝐔𝐄𝐕𝐎 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐎 🩵 】",
-                body: '𝚁𝚎𝚐𝚒𝚜𝚝𝚛𝚘𝚜 𝙼𝚊𝚔𝚒𝚖𝚊 2.0 𝙱𝚘𝚝',
+                body: '𝚁𝚎𝚐𝚒𝚜𝚝𝚛𝚘𝚜 isagi 2.0 𝙱𝚘𝚝',
                 thumbnailUrl: perfil,
                 sourceUrl: redes,
                 mediaType: 1,
