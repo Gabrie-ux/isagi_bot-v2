@@ -64,22 +64,22 @@ export async function before(m, { conn, participants, groupMetadata }) {
       caption: bienvenida, 
       contextInfo: contextNewsletter 
     });
-    // Mensaje adicional, respondiendo a 《✧》 LLEGO OTRO MIEMBRO 🎃
+    // Mensaje adicional, respondiendo a 《✧》 LLEGO OTRO 
     await conn.sendMessage(m.chat, { 
       text: 'SE NOS UNIÓ UN USUARIO', 
       contextInfo: contextNewsletter
-    }, { quoted: quotedMsg('《✧》 LLEGO OTRO PERSONA DEL MAS ALLA 🎃') });
+    }, { quoted: quotedMsg('《✧》 LLEGO OTRO PERSONA DEL MAS ALLA ✨') });
   }
 
   if ([28, 32].includes(m.messageStubType)) {
     const despedida = `
-⭐ ADIOS - USER ⭐
+⭐ADIOS - USER ⭐
 
-⭐ Usuario: ${user}
-⭐ Grupo: ${groupMetadata.subject}
-⭐ Miembros: ${total}
+⭐Usuario: ${user}
+⭐Grupo: ${groupMetadata.subject}
+⭐Miembros: ${total}
 
-⌬ Espero y vuelvas después Isagi te esperara en las canchas ⚽⚽.
+⌬ Espero y vuelvas después Isagi te esperara en las canchas ⚽.
 `
     // Mensaje de despedida como newsletter
     await conn.sendMessage(m.chat, { 
@@ -91,6 +91,6 @@ export async function before(m, { conn, participants, groupMetadata }) {
     await conn.sendMessage(m.chat, { 
       text: 'SE NOS FUE EL USUARIO', 
       contextInfo: contextNewsletter
-    }, { quoted: quotedMsg('《✧》 SE FUE GAY XD') });
+    }, { quoted: quotedMsg('《✧》 SE FUE ONO ISAGI TE ESPERA👻 ') });
   }
 }
