@@ -3,10 +3,10 @@
 // Créditos: mantis-has (GitHub: https://github.com/mantis-has)
 
 const channelRD = {
-  id: "120363400360651198@newsletter", // Cambia por tu canal si quieres
-  name: "MAKIMA - CHANNEL"
+  id: "120363420590235387@newsletter", // Cambia por tu canal si quieres
+  name: "ISAGI - CHANNEL"
 }
-const thumbnailUrl = 'https://qu.ax/dXOUo.jpg' // Imagen cuadrada y pequeña
+const thumbnailUrl = 'https://files.catbox.moe/iya1a3.png' // Imagen cuadrada y pequeña
 
 let handler = async function (m, { args, command, usedPrefix, conn }) {
   if (!args[0]) {
