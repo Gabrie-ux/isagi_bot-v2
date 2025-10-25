@@ -16,9 +16,9 @@ const jugadores = [
 ];
 
 const channelRD = { id: "120363400360651198@newsletter", name: "MAKIMA - FRASES" };
-const MAKIMA_ICON = "https://qu.ax/dXOUo.jpg";
+const isagi_ICON = "https://files.catbox.moe/iya1a3.png";
 const GITHUB_MAKIMA = "https://github.com/mantis-has/Makima";
-const NEWSLETTER_TITLE = '🩵 MAKIMA BOT MD 🩵';
+const NEWSLETTER_TITLE = '🩵 ISAGI BOT MD 🩵';
 const SOC_CLAIM_TIMEOUT = 3 * 60 * 1000; // 3 minutos
 
 let soccerStorage = global.db.data.soccer || (global.db.data.soccer = {});
