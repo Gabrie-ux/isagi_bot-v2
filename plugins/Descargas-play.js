@@ -16,7 +16,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
     }
 
     const body = `*┏━━━━━━━━━━━━━━━━━⬣*
-*┃ 💎 MAKIMA - PLAY 💎*
+*┃ 💎 ISAGI - PLAY 💎*
 *┗━━━━━━━━━━━━━━━━━⬣*
 
 🩵 *TÍTULO:* 
@@ -41,7 +41,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
       {
         image: { url: videoInfo.thumbnail },
         caption: body,
-        footer: '🩷 ᴍᴀᴋɪᴍᴀ ʙᴏᴛ ✨| ᴘʟᴀʏ',
+        footer: '🩷 isagi ʙᴏᴛ ✨| ᴘʟᴀʏ',
         buttons: [
           { buttonId: `.ytmp3 ${videoInfo.url}`, buttonText: { displayText: 'ᴀᴜᴅɪᴏ' } },
           { buttonId: `.play2 ${videoInfo.url}`, buttonText: { displayText: 'ᴠɪᴅᴇᴏ' } },
