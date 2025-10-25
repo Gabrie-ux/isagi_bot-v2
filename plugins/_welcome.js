@@ -2,7 +2,7 @@ import { WAMessageStubType } from '@whiskeysockets/baileys'
 import fetch from 'node-fetch'
 
 const channelRD = {
-  id: "https://files.catbox.moe/iya1a3.png", // Cambia por tu canal si quieres
+  id: "120363420590235387@newsletter", // Cambia por tu canal si quieres
   name: "ISAGI - CHANNEL"
 };
 
