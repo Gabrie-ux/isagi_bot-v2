@@ -68,7 +68,7 @@ export async function before(m, { conn, participants, groupMetadata }) {
     await conn.sendMessage(m.chat, { 
       text: 'SE NOS UNIÓ UN USUARIO', 
       contextInfo: contextNewsletter
-    }, { quoted: quotedMsg('《✧》 LLEGO OTRO PERSONA DEL MAS ALLA ') });
+    }, { quoted: quotedMsg('《✧》 LLEGO OTRO PERSONA ') });
   }
 
   if ([28, 32].includes(m.messageStubType)) {
