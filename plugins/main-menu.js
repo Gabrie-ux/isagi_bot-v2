@@ -50,15 +50,15 @@ let handler = async (m, { conn, usedPrefix, text, command }) => {
     // Comandos para el menú y "CARGANDO COMANDOS" (pueden ser usados por cualquier usuario)
     if (command === 'menu' || command === 'help' || command === 'menú') {
       // Variables para el contexto del canal
-      const dev = 'Félix Manuel';
-      const redes = 'https://github.com/Andresv27728/2.0';
-      const channelRD = { id: "120363400360651198@newsletter", name: "MAKIMA - FRASES" };
+      const dev = 'Gabriel perri';
+      const redes = 'https://github.com/gabrie-ux';
+      const channelRD = { id: "120363420590235387@newsletter", name: "ISAGI - YOICHI" };
       let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender;
       let perfil = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://files.catbox.moe/mqtxvp.jpg');
 
       // Mensaje de "CARGANDO COMANDOS..." con contexto de canal y respondiendo al mensaje
       await conn.sendMessage(m.chat, {
-        text: 'ꪹ͜🕑͡ 𝗖𝗔𝗥𝗚𝗔𝗡𝗗𝗢 𝗖𝗢𝗠𝗔𝗡𝗗𝗢𝗦...𓏲✧੭',
+        text: 'ꪹ͜🕑͡ CARGANDO MIS ESPELUZNANTES COMANDOS 🎃...𓏲✧੭',
         contextInfo: {
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
@@ -102,7 +102,7 @@ let handler = async (m, { conn, usedPrefix, text, command }) => {
       let menu = `¡Hola! ${taguser} soy ${botname}  ${(conn.user.jid == global.conn.user.jid ? '(OficialBot)' : '(Sub-Bot)')} 
 
 ╭━━I N F O-B O-T━━
-┃Creador: 𓆩‌۫᷼ ִֶָღܾ݉͢ғ꯭ᴇ꯭፝ℓɪ꯭ͨא𓆪
+┃Creador: ?GABRIEL
 ┃Tiempo activo: ${uptime}
 ┃Baileys: Multi device
 ┃Moneda actual: ${moneda}
@@ -367,7 +367,7 @@ let handler = async (m, { conn, usedPrefix, text, command }) => {
 ╰━━━━━━━━━━━━━━━━━━
 
 
-> © ⍴᥆ᥕᥱrᥱძ ᑲᥡ Félix Manuel`.trim(); // El resto del menú permanece igual
+> © ⍴᥆ᥕᥱrᥱძ ᑲᥡ gabfiel Manuel`.trim(); // El resto del menú permanece igual
 
       // Enviar el menú con el banner y nombre específico para esta sesión y respondiendo al mensaje
       await conn.sendMessage(m.chat, {
@@ -383,7 +383,7 @@ let handler = async (m, { conn, usedPrefix, text, command }) => {
           },
           forwardingScore: 999,
           externalAdReply: {
-            title: '𝐌A͜͡𝑲𝑖𝐌ꪖ  𝐁o͟T͎ 𝙼𝙳',
+            title: 'ISAGI  𝐁o͟T͎ 𝙼𝙳',
             body: dev,
             thumbnailUrl: perfil,
             sourceUrl: redes,
