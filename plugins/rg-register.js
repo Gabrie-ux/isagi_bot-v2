@@ -52,7 +52,7 @@ let handler = async function (m, { conn, text, args, usedPrefix, command }) {
 ╔⌬━━━━━━━━━━━━▣
 ┃💎Diamantes: 100
 ┃
-┃💰Makicoins: 200
+┃💰isagicoins: 200
 ┃
 ┃✨Experiencia: 1000
 ┃
@@ -65,7 +65,7 @@ let handler = async function (m, { conn, text, args, usedPrefix, command }) {
 https://whatsapp.com/channel/0029Vb6nOKBD8SDp0aFtCD3R
 ╚▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬▭╝
 
-> © Powered by Félix Manuel`
+> © Powered by gabriel Manuel`
 
   await conn.sendMessage(m.chat, {
         text: regbot,
