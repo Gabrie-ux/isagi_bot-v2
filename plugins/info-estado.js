@@ -5,7 +5,7 @@ let handler = async (m, { conn, usedPrefix }) => {
   let totalreg = Object.keys(global.db.data.users).length;
   let totalchats = Object.keys(global.db.data.chats).length;
   let vs = global.vs || '1.0.0';
-  let pp = "https://files.catbox.moe/ed9tq4.jpg";
+  let pp = "https://files.catbox.moe/iya1a3.png";
 
   // Tiempo de actividad
   if (process.send) {
@@ -30,13 +30,13 @@ let handler = async (m, { conn, usedPrefix }) => {
   let speed = neww - old;
 
   // Mensaje principal
-  let makimabot= `
+  let Isagimabot= `
 ╭━━━━◇◇◇━━━━⬣
-┃ ESTADO DE LA BOT 
-┃ MAKIMA 2.0 BOT
+┃ ESTADO DE EL BOT 
+┃ ISAGI 2.0 BOT
 ╰━━━━◇◇◇━━━━⬣
 
-🩵 *Creador:* Félix Manuel 
+🩵 *Creador:* gabriel Manuel 
 🩵 *Prefijo:* [ ${usedPrefix} ]
 🩵 *Versión:* ${vs}
 
