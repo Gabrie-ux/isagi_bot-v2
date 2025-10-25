@@ -367,7 +367,7 @@ let handler = async (m, { conn, usedPrefix, text, command }) => {
 ╰━━━━━━━━━━━━━━━━━━
 
 
-> © ⍴᥆ᥕᥱrᥱძ ᑲᥡ gabriel Manuel`.trim(); // El resto del menú permanece igual
+> © ⍴᥆ᥕᥱrᥱძ ᑲᥡ gabriel Isagi`.trim(); // El resto del menú permanece igual
 
       // Enviar el menú con el banner y nombre específico para esta sesión y respondiendo al mensaje
       await conn.sendMessage(m.chat, {
